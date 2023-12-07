@@ -46,7 +46,7 @@ function addTodo(event) {
 function deleteCheck(e) {
     const item = e.target;
     // delete todo item
-    if (item.classList[0]) = "delete-btn" {
-        item.remove();
+    if ((item.classList[0]) = "delete-btn") {
+        item.remove(); 
     }
 }
